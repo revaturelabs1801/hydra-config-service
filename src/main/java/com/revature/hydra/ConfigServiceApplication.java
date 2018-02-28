@@ -1,4 +1,4 @@
-package com.revature.hydra.configservice;
+package com.revature.hydra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
