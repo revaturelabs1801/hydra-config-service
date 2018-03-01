@@ -1,4 +1,4 @@
-package com.revature.hydra.configservice.test;
+package com.revature.hydra.config.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
