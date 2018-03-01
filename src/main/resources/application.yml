@@ -1,16 +1,20 @@
 server:
   port: 8888
 
-
-
 security:
   basic:
     enabled: false
 
-
 spring: 
+  application: 
+    name: config-service
   cloud:
     config: 
       server: 
         git: 
-          uri: https://github.com/Revature-1704-Java/caliberconfig
+          uri: https://gitlab.com/revature_hydra/hydra-configuration.git
+          username: revdum
+          password: p4ssw0rd
+
+
+

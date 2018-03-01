@@ -1,4 +1,4 @@
-package com.revature;
+package com.revature.hydra.config.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -8,9 +8,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ConfigServiceApplicationTests {
-
+	
 	@Test
 	public void contextLoads() throws Exception {
 	}
-
 }
