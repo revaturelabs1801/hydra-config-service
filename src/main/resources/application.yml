@@ -2,9 +2,6 @@ server:
   port: 8888
 
 security:
-  user:
-    name: revdum
-    password: p4ssw0rd
   basic:
     enabled: false
 
