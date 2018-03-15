@@ -1,10 +1,8 @@
 server:
   port: 8888
-
 security:
   basic:
     enabled: false
-
 spring: 
   application: 
     name: config-service
@@ -12,9 +10,5 @@ spring:
     config: 
       server: 
         git: 
-          uri: https://gitlab.com/revature_hydra/hydra-configuration.git
-          username: revdum
-          password: p4ssw0rd
-
-
-
+          uri: https://github.com/revaturelabs1801/hydra-configuration
+          clone-on-start: true
